@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PCANExplorerProject Version="6.0" AppVersion="6.6.1" Name="can_publish_mqtt">
+    <Connections AutoReset="0" IgnoreRTRLength="0" ProcessRTR="1"/>
+    <Files/>
+</PCANExplorerProject>

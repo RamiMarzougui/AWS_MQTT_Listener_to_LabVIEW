@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PCANExplorerProject Version="6.0" AppVersion="6.6.1" Name="can_publish_mqtt">
+    <Connections AutoReset="0" IgnoreRTRLength="0" ProcessRTR="1">
+        <Connection Name="Connection1" Bus="1" Enabled="1" Protocol="0" BitRate="20" Connection="CAN_USB@pcan_usb"/>
+        <Connection Name="Connection2" Bus="2" Enabled="1" Protocol="0" BitRate="20" Connection="CAN_USB@pcan_usb"/>
+    </Connections>
+    <TransmitList>
+        <TransmitListItem Bus="1" Msg="ID=16,Type=D,Length=8" CycleTime="100" IsPaused="1" Creator="User"/>
+    </TransmitList>
+    <Files>
+        <File RelativePath="..\Py_AWS_MQTT_Publish\DBC_VCU_V2.dbc"/>
+    </Files>
+</PCANExplorerProject>
