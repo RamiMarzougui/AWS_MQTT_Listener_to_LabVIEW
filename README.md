@@ -8,4 +8,4 @@ Then, 3 threads are created:
   2. Retrieves the uncompressed yet data at a constant time interval with a delay (to compensate for some eventual latency in the cloud service), then decompresses and organizes them in order (FIFO) for part c.
   3. Creates and manages a TCP connection, waits for the LabView VI's connection, and sends the read data from the FIFO to Labview
 
-**Note** : All functions with "save_" are debug functions for testing, they allow saving results in .trc or .json format
+**Note** : All functions with *"save_"* are debug functions for testing, they allow saving results in .trc or .json format
